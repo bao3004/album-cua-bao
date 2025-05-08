@@ -21,6 +21,7 @@ import SaiGonAlbum from "@/components/Albums/SaiGonAlbum.vue";
 import SaiGonAlbum2 from "@/components/Albums/SaiGonAlbum2.vue";
 import ZooAlbum from "@/components/Albums/ZooAlbum.vue";
 import ZooAlbum2 from "@/components/Albums/ZooAlbum2.vue";
+import ThirtyFourAlbum from "@/components/Albums/ThirtyFourAlbum.vue";
 
 // test
 const routes = [
@@ -36,6 +37,7 @@ const routes = [
   { path: "/sg2", component: SaiGonAlbum2 },
   { path: "/zoo", component: ZooAlbum },
   { path: "/zoo2", component: ZooAlbum2 },
+  { path: "/304", component: ThirtyFourAlbum },
   //pages
   { path: "/feedback", component: Feedback },
   { path: "/albumtest", component: AlbumTest },

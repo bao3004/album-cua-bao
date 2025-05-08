@@ -69,6 +69,12 @@ export default {
           title: "Zoo 2",
           to: "/zoo",
         },
+        {
+          src: "https://res.cloudinary.com/ddhyr7ejn/image/upload/w_800/v1746731738/FE7A2233_ddkm2p.jpg",
+          caption: "My Birthday",
+          title: "30 - 4",
+          to: "/304",
+        },
       ],
     };
   },
@@ -84,7 +90,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(20, 20, 20, 1);
+  background-color: var(--bg-color);
   flex-direction: column;
 }
 

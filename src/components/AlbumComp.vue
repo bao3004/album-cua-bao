@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div id="slide" ref="slide">
+      <!-- Home -->
       <div
         class="item"
         :style="{
@@ -20,6 +21,7 @@
           ></router-link>
         </div>
       </div>
+      <!-- SAIGON ZOO -->
       <div
         class="item"
         :style="{
@@ -39,6 +41,7 @@
           ></router-link>
         </div>
       </div>
+      <!-- GIGAMALL -->
       <div
         class="item"
         :style="{
@@ -57,6 +60,7 @@
           ></router-link>
         </div>
       </div>
+      <!-- Làng đại học -->
       <div
         class="item"
         :style="{
@@ -76,6 +80,7 @@
           ></router-link>
         </div>
       </div>
+      <!-- Saigon -->
       <div
         class="item"
         :style="{
@@ -95,6 +100,46 @@
           ></router-link>
         </div>
       </div>
+      <!-- Núi bà đen -->
+      <div
+        class="item"
+        :style="{
+          backgroundImage: `url(${require('@/assets/img/home/7.png')})`,
+        }"
+      >
+        <div class="content">
+          <div class="header">ALBUM</div>
+          <div class="name">BÀ ĐEN</div>
+          <div class="topic">by ME</div>
+          <div class="des">
+            Một lần thăm Tây Ninh cùng team phượt và chinh phục núi Bà Đen.
+          </div>
+          <router-link id="btnSeeAlbum" to="/baden"
+            ><span>Go to Album</span><em></em
+          ></router-link>
+        </div>
+      </div>
+      <!-- 30-4 -->
+      <div
+        class="item"
+        :style="{
+          backgroundImage: `url(${require('@/assets/img/home/8.jpg')})`,
+        }"
+      >
+        <div class="content">
+          <div class="header">ALBUM</div>
+          <div class="name">30 - 4</div>
+          <div class="topic">by ME</div>
+          <div class="des">
+            Tôi sinh ra vào ngày đất nước hát khúc khải hoàn, như thể mang trong
+            tim một phần tự hào của dân tộc.
+          </div>
+          <router-link id="btnSeeAlbum" to="/304"
+            ><span>Go to Album</span><em></em
+          ></router-link>
+        </div>
+      </div>
+      <!-- Album đang trong quá trình hoàn thiện, nên chưa có ảnh -->
       <div
         class="item"
         :style="{
@@ -110,24 +155,6 @@
             chút thời gian.
           </div>
           <router-link id="btnSeeAlbum" to="/404"
-            ><span>Go to Album</span><em></em
-          ></router-link>
-        </div>
-      </div>
-      <div
-        class="item"
-        :style="{
-          backgroundImage: `url(${require('@/assets/img/home/7.png')})`,
-        }"
-      >
-        <div class="content">
-          <div class="header">ALBUM</div>
-          <div class="name">BÀ ĐEN</div>
-          <div class="topic">by ME</div>
-          <div class="des">
-            Một lần thăm Tây Ninh cùng team phượt và chinh phục núi Bà Đen.
-          </div>
-          <router-link id="btnSeeAlbum" to="/baden"
             ><span>Go to Album</span><em></em
           ></router-link>
         </div>

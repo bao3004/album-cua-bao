@@ -1,30 +1,25 @@
 <template>
   <div class="concept concept-eight">
     <h1 class="word">
-      <div class="char" data-content="F">F</div>
-      <div class="char" data-content="A">A</div>
-      <div class="char" data-content="L">L</div>
-      <div class="char" data-content="L">L</div>
-      <div class="char" data-content="S">S</div>
+      <div class="char" data-content="I">3</div>
+      <div class="char" data-content="♥️">0</div>
+      <div class="char" data-content="V">-</div>
+      <div class="char" data-content="N">4</div>
     </h1>
   </div>
+  <DownButton2 />
 </template>
 
 <script>
-export default {};
+import DownButton2 from "../DownButton/DownButton2.vue";
+export default {
+  components: {
+    DownButton2,
+  },
+};
 </script>
 
 <style scoped>
-body {
-  font-family: "Comfortaa", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 .main-content {
   text-align: center;
   scroll-snap-type: y mandatory;
@@ -68,7 +63,7 @@ h1 {
   opacity: 0.5;
 }
 .concept-eight {
-  background: url(https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/falls.jpg)
+  background: url(https://res.cloudinary.com/ddhyr7ejn/image/upload/v1746731738/FE7A2238_yfts7l.jpg)
     center center / cover;
   display: flex;
   align-items: center;
@@ -78,9 +73,9 @@ h1 {
 .concept-eight .word {
   display: flex;
   align-items: center;
-  justify-items: center;
-  width: 450px;
-  height: 80%;
+  justify-content: center;
+  gap: 0.5em; /* khoảng cách giữa các chữ */
+  height: 100%;
 }
 
 .concept-eight .word:hover .char:before {

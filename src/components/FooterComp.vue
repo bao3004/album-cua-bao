@@ -19,30 +19,34 @@
         <div class="footer-column">
           <h3 class="footer-title">Latest Albums</h3>
           <div class="footer-photos">
-            <div
+            <router-link
               class="photo"
+              to="/304"
+              style="
+                background-image: url('https://res.cloudinary.com/ddhyr7ejn/image/upload/q_auto,f_auto/v1746731727/FE7A2148_mdtwk4.jpg');
+              "
+            ></router-link>
+            <router-link
+              class="photo"
+              to="/zoo"
               style="
                 background-image: url('https://res.cloudinary.com/ddhyr7ejn/image/upload/q_auto,f_auto/v1741602651/FE7A0989_mpzdw6.jpg');
               "
-            ></div>
-            <div
+            ></router-link>
+            <router-link
               class="photo"
+              to="/giga"
               style="
                 background-image: url('https://res.cloudinary.com/ddhyr7ejn/image/upload/q_auto,f_auto/v1722012156/IMG_1959_aqm7l4.png');
               "
-            ></div>
-            <div
+            ></router-link>
+            <router-link
               class="photo"
+              to="/home"
               style="
                 background-image: url('https://res.cloudinary.com/ddhyr7ejn/image/upload/q_auto,f_auto/v1741591586/IMG_2537_ygh6zu.jpg');
               "
-            ></div>
-            <div
-              class="photo"
-              style="
-                background-image: url('https://res.cloudinary.com/ddhyr7ejn/image/upload/q_auto,f_auto/v1722277966/FE7A0590_sfjnlj.jpg');
-              "
-            ></div>
+            ></router-link>
           </div>
         </div>
 

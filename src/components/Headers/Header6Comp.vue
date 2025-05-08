@@ -1,6 +1,12 @@
 <template>
   <div class="concept concept-seven">
-    <h1>BADEN</h1>
+    <h1>
+      <span>B</span>
+      <span>A</span>
+      <span>D</span>
+      <span>E</span>
+      <span>N</span>
+    </h1>
   </div>
   <DownButton5 />
 </template>
@@ -57,6 +63,7 @@ h1 {
 .concept:hover:before {
   opacity: 0.5;
 }
+
 .concept-seven {
   background: url(https://res.cloudinary.com/ddhyr7ejn/image/upload/v1742799834/IMG_1757_fzl1se.png)
     center / cover;
@@ -66,8 +73,13 @@ h1 {
 }
 
 .concept-seven h1 {
-  letter-spacing: 35px;
+  display: flex;
+  gap: 10px;
+  font-size: 80px;
   position: relative;
+}
+
+.concept-seven h1 span {
   display: inline-block;
 }
 
@@ -95,19 +107,23 @@ h1 {
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
   }
+
   100% {
     transform: translate(-50%, -50%) scale(2);
     opacity: 0;
   }
 }
+
 @media (max-width: 768px) {
   h1 {
-    font-size: 40px; /* Giảm kích thước chữ */
+    font-size: 40px;
+    /* Giảm kích thước chữ */
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   }
 
   .concept-seven h1 {
-    letter-spacing: 20px; /* Giảm khoảng cách chữ */
+    letter-spacing: 20px;
+    /* Giảm khoảng cách chữ */
   }
 
   .concept-seven h1:before {
@@ -116,13 +132,8 @@ h1 {
 }
 
 @media (max-width: 480px) {
-  h1 {
-    font-size: 30px; /* Chữ nhỏ hơn trên màn hình rất nhỏ */
-    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
-  }
-
   .concept-seven h1 {
-    letter-spacing: 15px; /* Tiếp tục thu nhỏ khoảng cách */
+    font-size: 40px;
   }
 
   .concept-seven h1:before {
