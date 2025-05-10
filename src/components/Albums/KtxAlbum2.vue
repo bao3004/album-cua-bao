@@ -108,6 +108,22 @@ export default {
           src: "https://res.cloudinary.com/ddhyr7ejn/image/upload/w_800,q_auto,f_auto/v1741602212/FE7A1326_zu2zu5.jpg",
           href: "https://res.cloudinary.com/ddhyr7ejn/image/upload/v1741602212/FE7A1326_zu2zu5.jpg",
         },
+        {
+          src: "https://res.cloudinary.com/ddhyr7ejn/image/upload/w_800,q_auto,f_auto/v1746896327/FE7A2310_ubhajn.jpg",
+          href: "https://res.cloudinary.com/ddhyr7ejn/image/upload/v1746896327/FE7A2310_ubhajn.jpg",
+        },
+        {
+          src: "https://res.cloudinary.com/ddhyr7ejn/image/upload/w_800,q_auto,f_auto/v1746896212/FE7A2306_iokji8.jpg",
+          href: "https://res.cloudinary.com/ddhyr7ejn/image/upload/v1746896212/FE7A2306_iokji8.jpg",
+        },
+        {
+          src: "https://res.cloudinary.com/ddhyr7ejn/image/upload/w_800,q_auto,f_auto/v1746896209/FE7A2301_gwjh3a.jpg",
+          href: "https://res.cloudinary.com/ddhyr7ejn/image/upload/v1746896209/FE7A2301_gwjh3a.jpg",
+        },
+        {
+          src: "https://res.cloudinary.com/ddhyr7ejn/image/upload/w_800,q_auto,f_auto/v1746896208/FE7A2294_t93hw6.jpg",
+          href: "https://res.cloudinary.com/ddhyr7ejn/image/upload/v1746896208/FE7A2294_t93hw6.jpg",
+        },
       ],
       totalPages: 2, // Số trang tổng cộng, có thể thay đổi
       links: ["/ktx", "/ktx2"],
