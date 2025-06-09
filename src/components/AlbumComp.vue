@@ -52,9 +52,7 @@
           <div class="header">ALBUM</div>
           <div class="name">GIGAMALL</div>
           <div class="topic">by ME</div>
-          <div class="des">
-            Một kỉ niệm cùng những người bạn dưới quê tại Gigamall.
-          </div>
+          <div class="des">Một kỉ niệm cùng tại Gigamall.</div>
           <router-link id="btnSeeAlbum" to="/giga"
             ><span>Go to Album</span><em></em
           ></router-link>
@@ -72,8 +70,7 @@
           <div class="name">LÀNG ĐẠI HỌC</div>
           <div class="topic">by ME</div>
           <div class="des">
-            Album này lưu giữ những kỉ niệm suốt 4 năm trời học xa nhà của mình
-            tại Sài Gòn.
+            Những kỷ niệm khó quên suốt 4 năm ở làng đại học.
           </div>
           <router-link id="btnSeeAlbum" to="/ktx"
             ><span>Go to Album</span><em></em
@@ -111,9 +108,7 @@
           <div class="header">ALBUM</div>
           <div class="name">BÀ ĐEN</div>
           <div class="topic">by ME</div>
-          <div class="des">
-            Một lần thăm Tây Ninh cùng team phượt và chinh phục núi Bà Đen.
-          </div>
+          <div class="des">Một lần thăm Tây Ninh chinh phục núi Bà Đen.</div>
           <router-link id="btnSeeAlbum" to="/baden"
             ><span>Go to Album</span><em></em
           ></router-link>
