@@ -235,7 +235,7 @@ section {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
   .home-img .main_img {
     width: 45vh;
     height: 45vh;
@@ -270,7 +270,10 @@ section {
 .typing-text {
   font-size: 24px;
 }
-@media (max-width: 300px) {
+@media (max-width: 400px) {
+  .home {
+    padding: 150px 5%;
+  }
   .home-img .main_img {
     width: 30vh; /* Thu nhỏ hơn nữa */
     height: 30vh;

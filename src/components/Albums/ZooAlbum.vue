@@ -357,7 +357,6 @@ export default {
   grid-row: span 2;
 }
 .grid-item:nth-child(38) {
-  grid-column: span 3;
   grid-row: span 1;
 }
 @keyframes fade {

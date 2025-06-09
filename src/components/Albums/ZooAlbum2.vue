@@ -372,12 +372,15 @@ export default {
   grid-column: span 2;
   grid-row: span 2;
 }
+.grid-item:nth-child(36) {
+  grid-row: span 2;
+}
 .grid-item:nth-child(37) {
   grid-column: span 2;
   grid-row: span 2;
 }
 .grid-item:nth-child(38) {
-  grid-row: span 2;
+  grid-row: span 1;
 }
 @keyframes fade {
   from {
