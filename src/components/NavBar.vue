@@ -31,7 +31,7 @@
           v-if="isDropdownOpen"
           @click="closeDropdown"
         ></div>
-        <div class="dropdown-logo">MyLogo</div>
+        <div class="dropdown-logo">HFKSUE123</div>
         <router-link to="/" @click="closeDropdown">Home</router-link>
         <router-link to="/profile" @click="closeDropdown">About Me</router-link>
         <router-link to="/albuminfo" @click="closeDropdown"
